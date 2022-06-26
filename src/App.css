@@ -1,0 +1,84 @@
+
+.textspeed{
+    text-align: center;
+}
+.name{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: rgb(10, 151, 142);
+}
+.select{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.agian{
+    display: none;
+}
+.title{
+    color: white;
+    background-color: cadetblue;
+    margin-bottom: 50px;
+}
+.title span{
+    color: darkred;
+    margin: 0 5px;
+    font-size: 1.3rem;
+}
+.start{
+    margin: 20px;
+}
+.showetext{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    
+}
+.araytext{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: azure;
+}
+.araytext div{
+    margin: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.text{
+    text-align: center;
+    font-weight: bold;
+}
+.footertext{
+    position: relative;
+    color: white;
+    display: none;
+}
+.footertext .timeleft{
+    position: absolute;
+    left: 0;
+}
+.footertext .scorefrom{
+    position: absolute;
+    right: 0;
+}
+.footertext .textlose{
+    position: absolute;
+    left: 37%;
+    top: 30px;
+    color: red;
+    font-size: 2rem;
+    font-weight: bolder;
+    display: none;
+}
+.footertext .textwinner{
+    position: absolute;
+    left: 37%;
+    top: 30px;
+    color: green;
+    font-size: 2rem;
+    font-weight: bolder;
+    display: none;
+}
